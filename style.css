@@ -1,0 +1,851 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato:100|Yantramanav:100');
+
+
+body{
+	background: white;
+	color: black;
+font-family: 'Cormorant Garamond', serif;
+	font-weight: 100;
+}
+
+* {
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+a{
+text-decoration: none;
+color: inherit;
+}
+
+
+.cookies-bar {
+    width: 100%;
+    height: 40px;
+		font-family: sans-serif;
+    background: black;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: .2em;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-weight: 300;
+}
+
+
+
+.cookies-green {
+	color: #d8ff00;
+}
+
+
+.cookies-bar::selection {
+    background: #000090;
+    text-shadow: none;
+    color: #00ffff;
+}
+
+.top{
+    position: absolute;
+   /* top: -32px; */
+    overflow: hidden;
+}
+
+
+.bottom {
+    position: absolute;
+    bottom: 25%;
+    width: 44%;
+    height: 50%;
+    text-transform: uppercase;
+    padding: 3em;
+}
+
+.box{
+position: relative;
+    width: 100%;
+    height: 500px;
+background-color: #ece9d7;
+	    padding: 0em;
+    color: #064e29;
+}
+
+.sub-title {
+    text-align: justify;
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 22px;
+    margin: 1em 0em;
+    font-family: sans-serif;
+}
+
+.title {
+    text-align: justify;
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: initial;
+    line-height: 22px;
+    margin: 0.8em 0em 0.6em 0em;
+}
+
+
+@media screen and (max-width: 1340px) {
+.title {
+    font-size: 80px;
+	}
+}
+
+
+@media screen and (max-width: 1070px) {
+.title {
+    font-size: 50px;
+	}
+}
+
+}
+@media screen and (max-width: 690px) {
+
+.title {
+    font-size: 25px;
+	}
+}
+
+.title-cap {
+    text-align: justify;
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 22px;
+    margin: 3em 0em;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.sub {
+    height: 6em;
+    width: 100%;
+    margin: 0em 0em;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: justify;
+}
+
+@media screen and (max-width: 990px) {
+
+.sub {
+    width: 80%;
+	}
+}
+
+@media screen and (max-width: 690px) {
+
+.sub {
+    width: 80%;
+	}
+}
+
+
+.dual-uno{
+	float: right;
+width: 64%;
+}
+
+.dual-dos{
+	float: left;
+	width: 31%;
+}
+
+
+
+.line{
+	width: 100%;
+	height: 1px;
+	background: black;
+}
+
+.text {
+float: right;
+    width: 100%;
+    height: 100%;
+    position: relative;
+	overflow:hidden;
+}
+
+.logo{
+    float: left;
+    font-size: 30px;
+    text-transform: none;
+    font-weight: 700;
+    color: #7b7b7b;
+}
+
+.readmore{
+    float: right;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    border: black solid 1px;
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+    bottom: 0;
+    font-family: monospace;
+    padding: 5px;
+    line-height: 20px;
+    color: black;
+    margin: 15px 0em;
+	
+}
+
+p.header-p {
+text-align: left;
+    font-size: 29em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: -112px;
+    margin: 0;
+    bottom: -45px;
+    color: #e8e4ca;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+h2 {
+    margin: 0em;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 0px;
+}
+
+
+/*-----------*/
+
+
+.ser-header {
+    text-align: center;
+    padding: 32px;
+    font-size: 24px;
+    margin: 1em 0em 0em 0em;
+}
+
+.ser-header h1{
+		font-size: 22px;
+	line-height: 60px;
+}
+
+
+
+/*----------*/
+
+
+ .slideshow {
+width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+ 	overflow: hidden;
+ 	background-color: #ece9d7;
+ 	/*background: url(https://sloucher.files.wordpress.com/2015/05/sundays.jpg);*/
+ 	background-size: 1800px 1080px;
+ 	background-repeat: none;
+ 	background-size: cover;
+ }
+/*
+@media screen and (max-width: 990px) {
+	 .slideshow {
+		 display: none;
+	}
+}*/
+ 
+ .slideshow-active {
+ 	-webkit-filter: blur(14px);
+ }
+ 
+ .slideshow li span {
+ 	width: 100%;
+ 	height: 100%;
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 0px;
+ 	color: transparent;
+ 	background-size: cover;
+ 	background-position: 50% 50%;
+ 	background-repeat: none;
+ 	opacity: 0;
+ 	z-index: 0;
+ 	-webkit-backface-visibility: hidden;
+ 	-webkit-animation: image 86s linear infinite alternate;
+ }
+ 
+ li:nth-child(1) span {
+ 	background-image: url(https://mitchellfamily.github.io/Images/1.png);
+ }
+ 
+ li:nth-child(2) span {
+ 	background-image: url(https://mitchellfamily.github.io/Images/7.png);
+ 	-webkit-animation-delay: 20s;
+ }
+ 
+ li:nth-child(3) span {
+ 	background-image: url(https://mitchellfamily.github.io/Images/3.png);
+ 	-webkit-animation-delay: 40s;
+ }
+ 
+ li:nth-child(4) span {
+ 	background-image: url(https://mitchellfamily.github.io/Images/4.png);
+ 	-webkit-animation-delay: 60s;
+ }
+ 
+ li:nth-child(5) span {
+ 	background-image: url(hhttps://mitchellfamily.github.io/Images/5.png);
+ 	-webkit-animation-delay: 80s;
+ }
+
+ li:nth-child(6) span {
+ 	background-image: url(https://mitchellfamily.github.io/Images/6.png);
+ 	-webkit-animation-delay: 100s;
+ }
+
+ 
+ @-webkit-keyframes image {
+ 	0% {
+ 		opacity: 0;
+ 		-webkit-animation-timing-function: ease-in;
+ 	}
+ 	8% {
+ 		opacity: 1;
+ 		-webkit-transform: scale(1.05);
+ 		-webkit-animation-timing-function: ease-out;
+ 	}
+ 	17% {
+ 		opacity: 1;
+ 		-webkit-transform: scale(1.1);
+ 	}
+ 	25% {
+ 		opacity: 0;
+ 		-webkit-transform: scale(1.1);
+ 	}
+ 	100% {
+ 		opacity: 0;
+ 	}
+ }
+
+
+
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.wrap {
+width: 100%;
+position: relative;
+	/* top: 50%; */
+	/* left: 50%;*/
+	/* transform: translate(-50%, -50%);*/
+opacity: 0;
+-webkit-animation: fade 0.5s linear forwards;
+  -webkit-animation-delay: 0.5s;
+font-family: serif;
+
+}
+
+
+.top-tile{
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.bottom-tile{
+	position: absolute;
+    bottom: 0;
+}
+
+.box-tile{
+
+}
+/*
+.line-tile{
+	width: 100%;
+	height: 1px;
+	background: #ffffff47;
+	margin-bottom: 1em;
+}*/
+
+.line-tile-vert {
+    width: 1px;
+    height: 65%;
+    background: #ffffff47;
+    position: absolute;
+    left: 0;
+}
+
+
+.text-tile {
+    height: 100%;
+	    position: relative;
+}
+
+p.tile-box {
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+h1.header-tile {
+    margin: 21px 0em;
+    font-size: 17px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 21px;
+    text-align: center;
+}
+
+/*
+@media screen and (max-width: 990px) {
+h1.header-tile {
+    margin: 31px 0em;
+    font-size: 21px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 31px;
+	}
+}
+
+@media screen and (max-width: 690px) {
+h1.header-tile {
+    margin: 31px 0em;
+    font-size: 21px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 31px;
+	}
+}
+*/
+
+
+h2.sub-tile {
+    margin: 15px 0em;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+.p-sub{
+font-size: 14px;
+    padding: 17px 0em 0em 0em;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.flex-direction-row {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+/* @ media flex become column */
+@media .flex-direction-row {
+	  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+section {
+	position: relative;
+width: 16%;
+    height: 4em;
+padding: 1em;
+  background: #b9af7c;
+	opacity: 1;
+	    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+}
+
+
+
+/*@media screen and (max-width: 990px) {
+section {
+width: 20%;
+    height: 5em;
+padding: 1em;
+}
+}*/
+
+section:hover {
+	    background-color: 0.8;
+color: #000000;
+	    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+ /*   transition: 0.3s; */
+
+}
+
+/*
+section:before {
+    position: absolute;
+    width: 86%;
+    height: 5em;
+    opacity: 0;
+    content: '';
+
+    z-index: 99;
+}
+
+
+section:hover:before{
+
+}
+*/
+
+
+
+section:nth-child(6) {
+    background: #224f3c;
+    color: #c7c7c7;
+}
+
+section:nth-child(1) {
+color: #4e3300;
+}
+
+section:nth-child(2) {
+color: #4e3300;
+}
+section:nth-child(3) {
+color: #4e3300;
+}
+
+section:nth-child(4) {
+color: #4e3300;
+}
+
+section:nth-child(5) {
+color: #4e3300;
+}
+
+
+
+
+.small{
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 300;
+    font-style: normal;
+    font-family: arial,helvetica,sans-serif;
+    text-align: justify;
+    color: #464646;
+    margin: 0em 25em 8em 25em;
+	
+}
+
+
+@media screen and (max-width: 690px) {
+
+.small {
+font-size: 13px;
+    line-height: 30px;
+    margin: 0em 7em 8em 7em;
+	}
+}
+
+
+@media screen and (max-width: 1250px) {
+
+.small {
+font-size: 13px;
+    line-height: 30px;
+    margin: 0em 7em 8em 7em;
+	}
+}
+
+
+
+.thank-you{
+width: 100%;
+    height: auto;
+    padding: 4em 0em;
+background-color: #224f3c;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='church-on-sunday' fill='%23255a44' fill-opacity='0.4'%3E%3Cpath d='M77.17 0H80v2.83l-.1.1A39.9 39.9 0 0 1 74.64 20a39.9 39.9 0 0 1 5.24 17.06l.11.11v2.89c-.01 6.9-1.8 13.79-5.35 19.94A39.96 39.96 0 0 1 80 79.94V80h-2.83L66.84 69.66a39.83 39.83 0 0 1-24.1 10.25l.09.09h-5.66l.1-.1c-8.7-.58-17.22-4-24.1-10.23L2.82 80H0V79.94c.01-6.9 1.8-13.8 5.35-19.94A39.96 39.96 0 0 1 0 40.06V37.17l.1-.1A39.9 39.9 0 0 1 5.36 20 39.9 39.9 0 0 1 .1 2.94L0 2.83V0h2.83l-.1.1a39.83 39.83 0 0 1 24.1 10.24L37.18 0H40c0 6.92-1.78 13.83-5.35 20A39.96 39.96 0 0 1 40 40c0-6.92 1.78-13.83 5.35-20A39.96 39.96 0 0 1 40 0h2.83l10.33 10.34A39.83 39.83 0 0 1 77.26.09L77.17 0zm.77 77.94c-.3-5.52-1.8-11-4.49-16a40.18 40.18 0 0 1-5.17 6.34l9.66 9.66zm-12.52-9.7l-6.83-6.83-5.46 5.46-1.41 1.41-9.66 9.66c8.4-.45 16.69-3.68 23.36-9.7zm-23.07 6.58l7.99-7.98a40.05 40.05 0 0 1-3.79-4.9 37.88 37.88 0 0 0-4.2 12.88zM47.68 60a37.98 37.98 0 0 0 4.07 5.42L57.17 60l-5.42-5.42A38 38 0 0 0 47.68 60zm2.66-6.84a40.06 40.06 0 0 0-3.79 4.9 37.88 37.88 0 0 1-4.2-12.88l7.99 7.98zm1.38-1.44l1.41 1.41 5.46 5.46 6.83-6.84a37.85 37.85 0 0 0-23.36-9.7l9.66 9.67zM60 60l6.87 6.87A38.1 38.1 0 0 0 72.32 60a38.11 38.11 0 0 0-5.45-6.87L60 60zm-14.65 0a39.9 39.9 0 0 0-5.24 17.06l-.11.11-.1-.1A39.9 39.9 0 0 0 34.64 60a39.9 39.9 0 0 0 5.24-17.06l.11-.11.1.1A39.9 39.9 0 0 0 45.36 60zm9.23-48.25a37.85 37.85 0 0 1 23.36-9.7l-9.66 9.67-1.41 1.41-5.46 5.46-6.83-6.84zm13.67 13.67L62.83 20l5.42-5.42A38 38 0 0 1 72.32 20a37.98 37.98 0 0 1-4.07 5.42zm5.2-3.47a40.05 40.05 0 0 1-3.79 4.89l7.99 7.98c-.61-4.45-2.01-8.82-4.2-12.87zm-6.58 4.92l1.41 1.41 9.66 9.66a37.85 37.85 0 0 1-23.36-9.7l6.83-6.83 5.46 5.46zM53.13 13.13L60 20l-6.87 6.87A38.11 38.11 0 0 1 47.68 20a38.1 38.1 0 0 1 5.45-6.87zm-1.41-1.41l-9.66-9.66c.3 5.52 1.8 11 4.49 16a40.18 40.18 0 0 1 5.17-6.34zm-9.66 26.22c.3-5.52 1.8-11 4.49-16a40.18 40.18 0 0 0 5.17 6.34l-9.66 9.66zm26.22 13.78l9.66-9.66c-.3 5.52-1.8 11-4.49 16a40.18 40.18 0 0 0-5.17-6.34zm8.98-11.81L66.84 50.34a39.83 39.83 0 0 0-24.1-10.25l10.42-10.43a39.83 39.83 0 0 0 24.1 10.25zm-7.6-26.75a40.06 40.06 0 0 1 3.79 4.9 37.88 37.88 0 0 0 4.2-12.88l-7.99 7.98zm-31.72 28.9c-8.4.45-16.69 3.68-23.36 9.7l6.83 6.83 5.46-5.46 1.41-1.41 9.66-9.66zM22.83 60l5.42 5.42c1.54-1.7 2.9-3.52 4.07-5.42a38 38 0 0 0-4.07-5.42L22.83 60zm5.45 8.28l-1.41-1.41-5.46-5.46-6.83 6.84a37.85 37.85 0 0 0 23.36 9.7l-9.66-9.67zm9.37 6.54l-7.99-7.98a40.05 40.05 0 0 0 3.79-4.9 37.88 37.88 0 0 1 4.2 12.88zM20 60l-6.87-6.87A38.11 38.11 0 0 0 7.68 60a38.11 38.11 0 0 0 5.45 6.87L20 60zm17.26-19.9L26.84 29.65a39.83 39.83 0 0 1-24.1 10.25l10.42 10.43a39.83 39.83 0 0 1 24.1-10.25zm-35.2 1.96l9.66 9.66a40.18 40.18 0 0 0-5.17 6.33c-2.7-5-4.2-10.47-4.5-16zm4.49 19.89c-2.7 5-4.2 10.47-4.5 16l9.67-9.67a40.18 40.18 0 0 1-5.17-6.33zm31.1-16.77c-.61 4.45-2.01 8.82-4.2 12.87a40.06 40.06 0 0 0-3.79-4.89l7.99-7.98zm-4.2-23.23c2.7 5 4.2 10.47 4.5 16l-9.67-9.67c1.97-1.97 3.7-4.1 5.17-6.33zm-14.86-.54l6.83 6.84a37.85 37.85 0 0 1-23.36 9.7l9.66-9.67 1.41-1.41 5.46-5.46zm-8.25 5.43l-7.99 7.98c.61-4.45 2.01-8.82 4.2-12.87a40.04 40.04 0 0 0 3.79 4.89zm1.41-1.42A37.99 37.99 0 0 1 7.68 20a38 38 0 0 1 4.07-5.42L17.17 20l-5.42 5.42zm-5.2-7.37a40.04 40.04 0 0 1 3.79-4.89L2.35 5.18c.61 4.45 2.01 8.82 4.2 12.87zm6.58-4.92l-1.41-1.41-9.66-9.66a37.85 37.85 0 0 1 23.36 9.7l-6.83 6.83-5.46-5.46zm13.74 13.74L20 20l6.87-6.87A38.1 38.1 0 0 1 32.32 20a38.1 38.1 0 0 1-5.45 6.87zm6.58-8.82a40.18 40.18 0 0 0-5.17-6.33l9.66-9.66c-.3 5.52-1.8 11-4.49 16z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.thank-you h3 {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 36px;
+    text-align: center;
+    color: #d8d8d8;
+    padding: 0em 7em;
+}
+
+
+@media screen and (max-width: 690px) {
+
+.thank-you h3 {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 50px;
+    text-align: center;
+    color: #d8d8d8;
+    padding: 0em 3em;
+}
+}
+
+@media screen and (max-width: 990px) {
+
+.thank-you h3 {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 50px;
+    text-align: center;
+    color: #d8d8d8;
+    padding: 0em 3em;
+}
+}
+
+
+@-webkit-keyframes fade {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}
+
+.center {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+
+.center-table {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: inline-table;
+}
+
+
+.header {
+  text-align: center;
+  padding: 32px;
+	font-size: 24px;
+	    margin: 3em 0em 0em 0em;
+}
+
+.header h1{
+		font-size: 22px;
+	line-height: 60px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    left: 0%;
+    /* position: absolute; */
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 20%;
+    max-width: 25%;
+    padding: 0 4px;
+    flex-wrap: wrap;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+:focus {
+outline: 0;
+}
+
+::selection {
+    background: rgba(255, 255, 255, 0.24);
+    color: #fff;
+    text-shadow: none;
+}
+
+
+.lettersandtributes{
+	width: 100%;
+    height: auto;
+    padding: 2em 0em;
+}
+
+.lettersandtributes td{
+	text-align: center;
+}
+
+
+
+.service-details{
+	    line-height: 43px;
+    font-size: 24px;
+width: 100%;
+    height: auto;
+    padding: 0em 0em;
+	padding-bottom: 2em;
+background-color: #ece9d7;
+	background-color: #ece9d7;
+}
+
+.service-details h3 {
+    font-size: 28px;
+    font-weight: 400;
+	position: relative;
+    letter-spacing: 1px;
+    line-height: 36px;
+    text-align: center;
+    color: #d8d8d8;
+    padding: 0em 7em;
+}
+
+ table.center {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+  }
+ 
+
+
+
+.t1-col{
+	text-align: right;
+	    width: 50%;
+	color:#737134;
+	font-weight: bold;
+}
+
+
+
+
+
+
+.t2-col {
+    width: 33%;
+    color: inherit;
+    font-weight: normal;
+    height: 6em;
+}
+
+
+.zoom-memorial{
+width: 100%;
+    height: auto;
+    padding: 0em 0em;
+background-color: #224f3c;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='church-on-sunday' fill='%23255a44' fill-opacity='0.4'%3E%3Cpath d='M77.17 0H80v2.83l-.1.1A39.9 39.9 0 0 1 74.64 20a39.9 39.9 0 0 1 5.24 17.06l.11.11v2.89c-.01 6.9-1.8 13.79-5.35 19.94A39.96 39.96 0 0 1 80 79.94V80h-2.83L66.84 69.66a39.83 39.83 0 0 1-24.1 10.25l.09.09h-5.66l.1-.1c-8.7-.58-17.22-4-24.1-10.23L2.82 80H0V79.94c.01-6.9 1.8-13.8 5.35-19.94A39.96 39.96 0 0 1 0 40.06V37.17l.1-.1A39.9 39.9 0 0 1 5.36 20 39.9 39.9 0 0 1 .1 2.94L0 2.83V0h2.83l-.1.1a39.83 39.83 0 0 1 24.1 10.24L37.18 0H40c0 6.92-1.78 13.83-5.35 20A39.96 39.96 0 0 1 40 40c0-6.92 1.78-13.83 5.35-20A39.96 39.96 0 0 1 40 0h2.83l10.33 10.34A39.83 39.83 0 0 1 77.26.09L77.17 0zm.77 77.94c-.3-5.52-1.8-11-4.49-16a40.18 40.18 0 0 1-5.17 6.34l9.66 9.66zm-12.52-9.7l-6.83-6.83-5.46 5.46-1.41 1.41-9.66 9.66c8.4-.45 16.69-3.68 23.36-9.7zm-23.07 6.58l7.99-7.98a40.05 40.05 0 0 1-3.79-4.9 37.88 37.88 0 0 0-4.2 12.88zM47.68 60a37.98 37.98 0 0 0 4.07 5.42L57.17 60l-5.42-5.42A38 38 0 0 0 47.68 60zm2.66-6.84a40.06 40.06 0 0 0-3.79 4.9 37.88 37.88 0 0 1-4.2-12.88l7.99 7.98zm1.38-1.44l1.41 1.41 5.46 5.46 6.83-6.84a37.85 37.85 0 0 0-23.36-9.7l9.66 9.67zM60 60l6.87 6.87A38.1 38.1 0 0 0 72.32 60a38.11 38.11 0 0 0-5.45-6.87L60 60zm-14.65 0a39.9 39.9 0 0 0-5.24 17.06l-.11.11-.1-.1A39.9 39.9 0 0 0 34.64 60a39.9 39.9 0 0 0 5.24-17.06l.11-.11.1.1A39.9 39.9 0 0 0 45.36 60zm9.23-48.25a37.85 37.85 0 0 1 23.36-9.7l-9.66 9.67-1.41 1.41-5.46 5.46-6.83-6.84zm13.67 13.67L62.83 20l5.42-5.42A38 38 0 0 1 72.32 20a37.98 37.98 0 0 1-4.07 5.42zm5.2-3.47a40.05 40.05 0 0 1-3.79 4.89l7.99 7.98c-.61-4.45-2.01-8.82-4.2-12.87zm-6.58 4.92l1.41 1.41 9.66 9.66a37.85 37.85 0 0 1-23.36-9.7l6.83-6.83 5.46 5.46zM53.13 13.13L60 20l-6.87 6.87A38.11 38.11 0 0 1 47.68 20a38.1 38.1 0 0 1 5.45-6.87zm-1.41-1.41l-9.66-9.66c.3 5.52 1.8 11 4.49 16a40.18 40.18 0 0 1 5.17-6.34zm-9.66 26.22c.3-5.52 1.8-11 4.49-16a40.18 40.18 0 0 0 5.17 6.34l-9.66 9.66zm26.22 13.78l9.66-9.66c-.3 5.52-1.8 11-4.49 16a40.18 40.18 0 0 0-5.17-6.34zm8.98-11.81L66.84 50.34a39.83 39.83 0 0 0-24.1-10.25l10.42-10.43a39.83 39.83 0 0 0 24.1 10.25zm-7.6-26.75a40.06 40.06 0 0 1 3.79 4.9 37.88 37.88 0 0 0 4.2-12.88l-7.99 7.98zm-31.72 28.9c-8.4.45-16.69 3.68-23.36 9.7l6.83 6.83 5.46-5.46 1.41-1.41 9.66-9.66zM22.83 60l5.42 5.42c1.54-1.7 2.9-3.52 4.07-5.42a38 38 0 0 0-4.07-5.42L22.83 60zm5.45 8.28l-1.41-1.41-5.46-5.46-6.83 6.84a37.85 37.85 0 0 0 23.36 9.7l-9.66-9.67zm9.37 6.54l-7.99-7.98a40.05 40.05 0 0 0 3.79-4.9 37.88 37.88 0 0 1 4.2 12.88zM20 60l-6.87-6.87A38.11 38.11 0 0 0 7.68 60a38.11 38.11 0 0 0 5.45 6.87L20 60zm17.26-19.9L26.84 29.65a39.83 39.83 0 0 1-24.1 10.25l10.42 10.43a39.83 39.83 0 0 1 24.1-10.25zm-35.2 1.96l9.66 9.66a40.18 40.18 0 0 0-5.17 6.33c-2.7-5-4.2-10.47-4.5-16zm4.49 19.89c-2.7 5-4.2 10.47-4.5 16l9.67-9.67a40.18 40.18 0 0 1-5.17-6.33zm31.1-16.77c-.61 4.45-2.01 8.82-4.2 12.87a40.06 40.06 0 0 0-3.79-4.89l7.99-7.98zm-4.2-23.23c2.7 5 4.2 10.47 4.5 16l-9.67-9.67c1.97-1.97 3.7-4.1 5.17-6.33zm-14.86-.54l6.83 6.84a37.85 37.85 0 0 1-23.36 9.7l9.66-9.67 1.41-1.41 5.46-5.46zm-8.25 5.43l-7.99 7.98c.61-4.45 2.01-8.82 4.2-12.87a40.04 40.04 0 0 0 3.79 4.89zm1.41-1.42A37.99 37.99 0 0 1 7.68 20a38 38 0 0 1 4.07-5.42L17.17 20l-5.42 5.42zm-5.2-7.37a40.04 40.04 0 0 1 3.79-4.89L2.35 5.18c.61 4.45 2.01 8.82 4.2 12.87zm6.58-4.92l-1.41-1.41-9.66-9.66a37.85 37.85 0 0 1 23.36 9.7l-6.83 6.83-5.46-5.46zm13.74 13.74L20 20l6.87-6.87A38.1 38.1 0 0 1 32.32 20a38.1 38.1 0 0 1-5.45 6.87zm6.58-8.82a40.18 40.18 0 0 0-5.17-6.33l9.66-9.66c-.3 5.52-1.8 11-4.49 16z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.zoom-memorial h3 {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 36px;
+    text-align: center;
+    color: #d8d8d8;
+    padding: 0em 7em;
+}
+
+
+
+.header-zoom {
+    text-align: center;
+    padding: 32px;
+    font-size: 24px;
+    margin: 0em 0em 0em 0em;
+    color: white;
+}
+
+.header-zoom h1 {
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.t3-col {
+    width: auto;
+    color: inherit;
+    font-weight: normal;
+    height: 4em;
+}
+
+.t3-col h2 {
+    font-size: 19px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
